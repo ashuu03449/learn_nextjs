@@ -16,7 +16,7 @@ const ContactPage = () => {
         </div>
         <div className="mb-4">
           <label className="block text-sm mb-1" htmlFor="message">Message:</label>
-          <textarea id="message" className="p-2 w-full rounded" rows="4" placeholder="Your Message" required></textarea>
+          <textarea id="message" className="text-black p-2 w-full rounded" rows="4" placeholder="Your Message" required></textarea>
         </div>
         <button type="submit" className="bg-yellow-500 text-white p-2 rounded hover:bg-yellow-400 transition duration-200">Send Message</button>
       </form>
